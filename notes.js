@@ -1,5 +1,5 @@
 let notes = JSON.parse(localStorage.getItem("notes")) || []
-
+//changes made
 let showNotes = (arr) => {
     let grid = document.querySelector(".grid").innerHTML = ""
 
